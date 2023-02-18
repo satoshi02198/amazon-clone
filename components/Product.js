@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Currency from "react-currency-formatter";
 import { useDispatch } from "react-redux";
-import { addToBasket } from "../../slices/basketSlice";
+import { addToBasket } from "../src/slices/basketSlice";
 
 const MAX_RATING = 5;
 const MIN_RATING = 1;
