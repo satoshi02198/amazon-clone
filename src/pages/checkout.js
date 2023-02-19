@@ -1,8 +1,8 @@
-import Header from "../../components/Header";
+import Header from "../components/Header";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import { selectItems } from "../slices/basketSlice";
-import CheckoutProduct from "../../components/CheckoutProduct";
+import CheckoutProduct from "../components/CheckoutProduct";
 
 const Checkout = () => {
   const items = useSelector(selectItems);
