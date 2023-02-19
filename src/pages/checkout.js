@@ -60,6 +60,7 @@ const Checkout = () => {
               </h2>
 
               <button
+                role="link"
                 disabled={!session}
                 className={`button mt-2 ${
                   !session &&
