@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 export const authOptions = {
-  seacret: process.env.NEXTAUTH_SEACRET,
+  seacret: process.env.NEXTAUTH_SECRET,
   // Configure one or more authentication providers
   providers: [
     GoogleProvider({
