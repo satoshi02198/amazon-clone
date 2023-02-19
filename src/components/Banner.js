@@ -13,16 +13,18 @@ const Banner = () => {
         showThumbs={false}
         interval={5000}
       >
+        {/* https:links.papareact.com/6ff
+        https:links.papareact.com/7ma */}
         <div>
-          <img loading="lazy" src="https:links.papareact.com/gi1" alt="" />
+          <img loading="lazy" src="amazonBanner1.png" alt="" />
         </div>
 
         <div>
-          <img loading="lazy" src="https:links.papareact.com/6ff" alt="" />
+          <img loading="lazy" src="amazonBanner2.jpg" alt="" />
         </div>
 
         <div>
-          <img loading="lazy" src="https:links.papareact.com/7ma" alt="" />
+          <img loading="lazy" src="amazonBanner3.jpg" alt="" />
         </div>
       </Carousel>
     </div>
